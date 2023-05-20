@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul >
+        <li class= "content-box"><a href="#home">Home</a></li>
+        <li class= "content-box"><a href="#about">About</a></li>
+        <li class= "content-box"><a href="#portfolio">Portfolio</a></li>
+        <li class= "content-box"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to Your Portfolio</h1>
+    <p>Highlight your work and skills here.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Introduce yourself and provide relevant information about your background, experience, and skills.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <!-- Showcase your projects, artworks, or other relevant content here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="submit-form.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Your Name</p>
+  </footer>
+</body>
+</html>
